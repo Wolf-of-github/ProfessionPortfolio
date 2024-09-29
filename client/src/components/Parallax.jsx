@@ -1,8 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import './Parallax.css'
-
+import './Parallax.css';
 
 function Parallax() {
   const [background, setBackground] = useState(20);
@@ -64,19 +63,17 @@ function Parallax() {
         }}
         className="parallax"
       >
-        <img ref={mountain3} className="mountain-3" src="parallax/mountain-3.svg" alt="Mountain 3" />
-        <img ref={mountain2} className="mountain-2" src="parallax/mountain-2.svg" alt="Mountain 2" />
+        <img ref={mountain3} className="mountain-3" src="/parallax/mountain-3.svg" alt="Mountain 3" />
+        <img ref={mountain2} className="mountain-2" src="/parallax/mountain-2.svg" alt="Mountain 2" />
         <img ref={mountain1} className="mountain-1" src="/parallax/mountain-1.svg" alt="Mountain 1" />
-        <img ref={sun} className="sun" src="parallax/sun.svg" alt="Sun" />
-        <img ref={cloudsBottom} className="clouds-bottom" src="parallax/cloud-bottom.svg" alt="Clouds Bottom" />
-        <img ref={cloudsLeft} className="clouds-left" src="parallax/clouds-left.svg" alt="Clouds Left" />
-        <img ref={cloudsRight} className="clouds-right" src="parallax/clouds-right.svg" alt="Clouds Right" />
-        <img ref={stars} className="stars" src="parallax/stars.svg" alt="Stars" />
+        <img ref={sun} className="sun" src="/parallax/sun.svg" alt="Sun" />
+        <img ref={cloudsBottom} className="clouds-bottom" src="/parallax/cloud-bottom.svg" alt="Clouds Bottom" />
+        <img ref={cloudsLeft} className="clouds-left" src="/parallax/clouds-left.svg" alt="Clouds Left" />
+        <img ref={cloudsRight} className="clouds-right" src="/parallax/clouds-right.svg" alt="Clouds Right" />
+        <img ref={stars} className="stars" src="/parallax/stars.svg" alt="Stars" />
         <div ref={copy} className="copy">
-          
           <h1 className="w-full font-semibold">Ishaan Apte</h1>
           <div className="w-full text-5xl italic text-cyan-300 typewriter p-1">Just the guy you were looking for!!</div>
-
         </div>
       </div>
     </div>
